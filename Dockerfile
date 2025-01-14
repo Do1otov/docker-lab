@@ -9,7 +9,7 @@ RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 USER appuser
 
 # Устанавливаем рабочую директорию
-WORKDIR /app
+WORKDIR /myapp
 
 # Копируем все файлы в контейнер
 COPY . .
